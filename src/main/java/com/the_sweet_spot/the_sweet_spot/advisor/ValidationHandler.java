@@ -21,7 +21,6 @@ public class ValidationHandler {
 //        exception.getBindingResult().getFieldErrors().forEach(error -> {
 //            errorMap.put(error.getField(), error.getDefaultMessage());
 //        });
-//
 //        return new ResponseEntity<CommonResponse>(
 //                new CommonResponse(false, "Validation Error", errorMap),
 //                HttpStatus.BAD_REQUEST
