@@ -17,7 +17,6 @@ public class ValidationHandler {
 //    @ResponseStatus(HttpStatus.BAD_REQUEST)
 //    public ResponseEntity<CommonResponse> handleMethodArgumentException(MethodArgumentNotValidException exception){
 //        Map<String, String> errorMap = new HashMap<>();
-//
 //        exception.getBindingResult().getFieldErrors().forEach(error -> {
 //            errorMap.put(error.getField(), error.getDefaultMessage());
 //        });
